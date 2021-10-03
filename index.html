@@ -4,9 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>넷플릭스</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <header>
+      <div>
+        <div>
+          <img id="netflix_logo" src="/images/logo.png" alt="logo" />
+        </div>
+        <div>
+          <select class="language_select" id="lang_select_sm">
+            <option value="kr">한국어</option>
+            <option value="en">English</option>
+          </select>
+          <button id="login_btn">로그인</button>
+        </div>
+      </div>
+      <div>
+        <h1>영화, TV 프로그램을 무제한으로.</h1>
+        <h3>다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</h3>
+        <p>
+          시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
+          입력하세요.
+        </p>
+        <div>
+          <input type="email" id="user_email" placeholder="이메일 주소" />
+          <input type="submit" value="시작하기 &gt;" />
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <section></section>
+    <footer></footer>
   </body>
 </html>
