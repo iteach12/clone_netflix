@@ -1,1 +1,9 @@
-@import url(css/reset.css);
+@import url(/css/reset.css);
+
+body {
+  margin: auto 350px;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+}
