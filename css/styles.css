@@ -90,3 +90,26 @@ p {
   margin-bottom: 30px;
   text-align: center;
 }
+
+#navbar_text_field {
+  width: 700px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user_email {
+  width: 480px;
+  height: 60px;
+  font-size: 1.1em;
+  color: #46484c;
+}
+#start_submit {
+  width: 165px;
+  height: 65px;
+
+  font-size: 1.6em;
+  color: white;
+  background-color: #f40712;
+}
