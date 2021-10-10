@@ -25,7 +25,6 @@ header {
 
 #navbar {
   padding-top: 26px;
-  padding-bottom: 26px;
 }
 
 #navbar_logo {
@@ -112,4 +111,10 @@ p {
   font-size: 1.6em;
   color: white;
   background-color: #f40712;
+}
+
+.horizontal_line {
+  width: auto;
+  height: 11px;
+  background-color: #222222;
 }
