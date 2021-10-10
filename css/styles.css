@@ -1,9 +1,92 @@
 @import url(/css/reset.css);
 
-body {
-  margin: auto 350px;
+@media screen and (max-width: 2560px) {
+  #header_container {
+    margin: 0px 350px;
+  }
 }
+@media screen and (max-width: 1440px) {
+  #header_container {
+    margin: 0px 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #header_container {
+    margin: 0px 50px;
+  }
+}
+header {
+  width: auto;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/netflix_background_new.jpg);
+  background-size: 100%;
+}
+
 #navbar {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+#navbar_logo {
+  float: left;
+}
+#navbar_logo > img {
+  width: 137px;
+  height: 38px;
+}
+#navbar_select {
+  float: right;
+  background-color: black;
+}
+#lang_select_sm {
+  margin-right: 35px;
+  width: 90px;
+  height: 35px;
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+}
+#login_btn {
+  width: 76px;
+  height: 36px;
+  color: white;
+  background-color: red;
+  border-radius: 4px;
+}
+#navbar_main {
+  clear: both;
   display: flex;
-  justify-content: flex-end;
+  width: auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#navbar_main h1,
+h3,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+  text-align: center;
 }

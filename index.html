@@ -9,20 +9,22 @@
   </head>
   <body>
     <header>
+      <div id="header_container">
       <div id="navbar">
-        <div id="netflix_logo">
+        <div id="navbar_logo">
           <img src="images/logo.png" alt="logo" />
         </div>
-        <div>
+        <div id="navbar_select">
           <select class="language_select" id="lang_select_sm">
+            <option value="none" selected hidden disabled> &#127760; 한국어 &#9660;</option>
             <option value="kr">한국어</option>
             <option value="en">English</option>
           </select>
           <button id="login_btn">로그인</button>
         </div>
       </div>
-      <div>
-        <h1>영화, TV 프로그램을 무제한으로.</h1>
+      <div id="navbar_main">
+        <h1>영화, TV 프로그램을 <br>무제한으로.</h1>
         <h3>다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</h3>
         <p>
           시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
@@ -33,6 +35,7 @@
           <input type="submit" value="시작하기 &gt;" />
         </div>
       </div>
+    </div>
     </header>
     <main></main>
     <section></section>
