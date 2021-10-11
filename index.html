@@ -5,55 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link href="/images/netflix.ico" rel="shortcut icon" type="image/x-icon">
-    <title>넷플릭스 대한민국 - 인터넷으로 TV 프로그램과 영화를 시청하세요</title>
+    <link href="/images/netflix.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>
+      넷플릭스 대한민국 - 인터넷으로 TV 프로그램과 영화를 시청하세요
+    </title>
   </head>
   <body>
     <header>
       <div id="header_container">
-      <div id="navbar">
-        <div id="navbar_logo">
-          <img src="images/logo.png" alt="logo" />
+        <div id="navbar">
+          <div id="navbar_logo">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div id="navbar_select">
+            <select class="language_select" id="lang_select_sm">
+              <option value="none" selected hidden disabled>
+                &#127760; 한국어 &#9660;
+              </option>
+              <option value="kr">한국어</option>
+              <option value="en">English</option>
+            </select>
+            <button id="login_btn">로그인</button>
+          </div>
         </div>
-        <div id="navbar_select">
-          <select class="language_select" id="lang_select_sm">
-            <option value="none" selected hidden disabled> &#127760; 한국어 &#9660;</option>
-            <option value="kr">한국어</option>
-            <option value="en">English</option>
-          </select>
-          <button id="login_btn">로그인</button>
+        <div id="navbar_main">
+          <h1>영화, TV 프로그램을</h1>
+          <h1>무제한으로.</h1>
+          <h3>다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</h3>
+          <p>
+            시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일
+            주소를 입력하세요.
+          </p>
+          <div id="navbar_text_field">
+            <input
+              type="email"
+              id="user_email"
+              placeholder="&nbsp;&nbsp;이메일 주소"
+            />
+            <input type="submit" id="start_submit" value="시작하기 &gt;" />
+          </div>
         </div>
       </div>
-      <div id="navbar_main">
-        <h1>영화, TV 프로그램을</h1>
-           <h1>무제한으로.</h1>
-        <h3>다양한 디바이스에서 시청하세요. 언제든 해지하실 수 있습니다.</h3>
-        <p>
-          시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를
-          입력하세요.
-        </p>
-        <div id="navbar_text_field">
-          <input type="email" id="user_email" placeholder="&nbsp;&nbsp;이메일 주소" />
-          <input type="submit" id="start_submit" value="시작하기 &gt;" />
-        </div>
-      </div>
-    </div>
     </header>
-    <div class="horizontal_line"></div>
-
     <main>
+      <div class="horizontal_line"></div>
       <div class="main_info left_text">
         <div>
-          <h1></h1>
-          <h3></h3>
+          <h1>TV로 즐기세요.</h1>
+          <h3>
+            스마트 TV, PlayStation, Xbox, Chromecast,<br />Apple TV, 블루레이
+            플레이어 등 다양한<br />
+            디바이스에서 시청하세요.
+          </h3>
         </div>
-        <div>
-          <img src="/images/tv.png" alt="tv">
+        <div class="img_frame">
+          <img src="/images/tv.png" alt="tv" style="height: 400px" />
         </div>
-      </div>sfvxgbfgfh
+      </div>
+      <div class="horizontal_line"></div>
       <div class="main_info right_text"></div>
+      <div class="horizontal_line"></div>
       <div class="main_info left_text"></div>
+      <div class="horizontal_line"></div>
       <div class="main_info right_text"></div>
+      <div class="horizontal_line"></div>
     </main>
     <section></section>
     <footer></footer>
