@@ -1,34 +1,43 @@
 @import url(/css/reset.css);
 
-#navbar_main h1,
+h1,
 h3,
 p {
   color: white;
 }
-
 h1 {
   font-size: 3em;
-  margin-bottom: 30px;
   text-align: center;
   font-weight: bolder;
 }
 
 h3 {
   font-size: 1.8em;
-  margin-bottom: 30px;
   text-align: center;
 }
 
 p {
   font-size: 1.3em;
-  margin-bottom: 30px;
   text-align: center;
+}
+
+#navbar_main > h1 {
+  margin-bottom: 30px;
+}
+
+#navbar_main > h3 {
+  margin-bottom: 30px;
+}
+
+#navbar_main > p {
+  margin-bottom: 30px;
 }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(/images/netflix_background_new.jpg);
-  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #navbar {
@@ -135,20 +144,20 @@ header {
     height: 100%;
     margin: 0px 50px;
   }
-  h1 {
+  #navbar_main > h1 {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
     font-weight: bolder;
   }
 
-  h3 {
+  #navbar_main > h3 {
     font-size: 1.2em;
     margin-bottom: 20px;
     text-align: center;
   }
 
-  p {
+  #navbar_main > p {
     font-size: 1em;
     margin-bottom: 20px;
     text-align: center;
@@ -175,4 +184,26 @@ header {
     color: white;
     background-color: #f40712;
   }
+}
+
+.main_info {
+  width: auto;
+  height: 467px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_info > div > h1 {
+  text-align: left;
+}
+.main_info > div > h3 {
+  margin-top: 30px;
+  text-align: left;
+  line-height: 36px;
+}
+.img_frame {
+  position: relative;
+  width: auto;
+  height: 467px;
 }
